@@ -16,7 +16,7 @@ app.use('/api/notes',require('./routes/notes'))
 //     res.send('hello bro')
 // })
 app.listen(PORT , ()=>{
-    console.log(`running on http://localhost:${PORT}`)
+    console.log(`i notebookrunning on http://localhost:${PORT}`)
 })
 
 
